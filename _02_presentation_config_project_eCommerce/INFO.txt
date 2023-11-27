@@ -1,0 +1,35 @@
+ # site diagramme base de données
+ dbdiagram.io
+
+ # php version ?
+ php -v
+
+ # mysql ?
+ sudo mysql -v 
+ sudo mysql --version
+
+ # symfony ?
+ symfony -v
+
+ # composer ?
+ composer -v
+
+ # requirements ?
+ symfony check:requirements
+
+ # if neeeded :
+ sudo phpenmod intl 
+ sudo phpenmod `package name` // to activate  
+ 
+ # add module if necessary
+
+ # check installed modules
+ php -m
+
+
+ # instal MailHog (https://github.com/mailhog/MailHog)
+sudo apt-get -y install golang-go
+go get github.com/mailhog/MailHog
+
+# start the MailHog run
+~/go/bin/MailHog
