@@ -1,0 +1,5 @@
+symfony check:requirements
+
+symfony console about
+
+symfony new e-commerce-sf6 --version="6.3.*" --webapp
